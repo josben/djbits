@@ -1,0 +1,5 @@
+command = '/.../bin/gunicorn'
+pythonpath = '/var/www/project'
+bind = '0.0.0.0:8000'
+workers = 3
+
