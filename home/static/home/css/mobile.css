@@ -1,0 +1,25 @@
+
+#content {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+#photo {
+    display: block;
+    margin: 20px;
+}
+#photo img {
+    height: auto;
+    width: 100%;
+}
+#description {
+    clear: both;
+    margin: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+p, ul {
+    margin: 0;
+}
+

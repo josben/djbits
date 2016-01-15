@@ -1,0 +1,44 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+{% load staticfiles %}
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Benjamin Perez</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300,300italic"
+        rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{% static "home/css/reset.css" %}" media="all"
+        type="text/css" />
+  <link rel="stylesheet" href="{% static "home/css/style.css" %}" media="all"
+        type="text/css" />
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)"
+        href="{% static "home/css/mobile.css" %}" />
+  <link rel="icon" href="{% static "favicon.ico" %}">
+</head>
+<body>
+  <div id="content">
+    <div id="photo">
+      <img src="{% static "home/images/jb.png" %}" title="Benjamin Perez" width="400" height="400">
+    </div>
+    <div id="description">
+      <h1>Benjamín Pérez</h1>
+      <p>Hi! I'm an Django developer. I'm a former member of
+      <a href="http://www.scesi.org/">SCESI</a> and with my team into "Fabrica de Software"
+      in the <a href="http://www.umss.edu.bo">UMSS</a> university we develop a system
+      of complaints by whatsapp, the site <a href="http://hades.scesi.org">hades.scesi.org</a>
+      receives all messages sent by whatsapp.</p>
+      <ul>
+        <li><a href="#">My bits ;-)</a></li>
+        <li><a href="https://github.com/josben">GitHub</a></li>
+        <li><a href="https://twitter.com/josebenjaminp">Twitter</a></li>
+        <li><a href="https://plus.google.com/+BenjaminPerez">+BenjaminPerez</a></li>
+      </ul>
+      <p>josebenjaminp@gmail.com</p>
+    </div>
+  </div>
+</body>
+</html>
+
