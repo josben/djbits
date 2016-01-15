@@ -7,4 +7,5 @@ class User(AbstractUser):
     followers = models.ManyToManyField('self',
                                        related_name='followers',
                                        symetrical=False)
+    photo = models.ImageField(upload_to="avatar")
 
